@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-kill -9 .waybar-wrapped
+pkill waybar
 
-waybar & disown
+hyprctl dispatch exec waybar
