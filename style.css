@@ -71,6 +71,10 @@ button:hover {
     border-radius: 0.2rem;
 }
 
+#workspaces button label {
+  font-size: 0.8rem;
+}
+
 #workspaces button:hover {
     background-color: @overlay0;
 }
